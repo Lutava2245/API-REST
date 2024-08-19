@@ -14,10 +14,10 @@ public class Account {
 
     private String agencia;
 
-    @Column(precision = 2)
+    @Column(precision = 12)
     private Double balance;
 
-    @Column(name = "additional_limit", precision = 2)
+    @Column(name = "additional_limit", precision = 12)
     private Double limit;
 
     public Long getId() {
