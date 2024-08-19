@@ -10,9 +10,9 @@ public class Account {
     private Long id;
 
     @Column(unique = true)
-    private String numero;
+    private String number;
 
-    private String agencia;
+    private String agency;
 
     @Column(precision = 12)
     private Double balance;
@@ -28,20 +28,20 @@ public class Account {
         this.id = id;
     }
 
-    public String getNumero() {
-        return numero;
+    public String getNumber() {
+        return number;
     }
 
-    public void setNumero(String numero) {
-        this.numero = numero;
+    public void setNumber(String number) {
+        this.number = number;
     }
 
-    public String getAgencia() {
-        return agencia;
+    public String getAgency() {
+        return agency;
     }
 
-    public void setAgencia(String agencia) {
-        this.agencia = agencia;
+    public void setAgency(String agency) {
+        this.agency = agency;
     }
 
     public Double getBalance() {
